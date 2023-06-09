@@ -2,14 +2,9 @@
 
 namespace App.Web.Mvc.Controllers
 {
-    public class BlogController : Controller
+    public class PageController : Controller
     {
         public IActionResult Index()
-        {
-            return View();
-        }
-
-        public IActionResult Search(string query, int page)
         {
             return View();
         }
@@ -17,5 +12,6 @@ namespace App.Web.Mvc.Controllers
         {
             return View();
         }
+        
     }
 }

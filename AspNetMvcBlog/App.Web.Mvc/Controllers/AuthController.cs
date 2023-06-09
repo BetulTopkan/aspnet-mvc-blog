@@ -2,18 +2,21 @@
 
 namespace App.Web.Mvc.Controllers
 {
-    public class BlogController : Controller
+    public class AuthController : Controller
     {
         public IActionResult Index()
         {
             return View();
         }
-
-        public IActionResult Search(string query, int page)
+        public IActionResult Register()
         {
             return View();
         }
-        public IActionResult Detail(int id)
+        public IActionResult Login( string redirectUrl)
+        {
+            return View();
+        }
+        public IActionResult ForgotPassword() 
         {
             return View();
         }
